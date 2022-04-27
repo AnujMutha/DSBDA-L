@@ -1,0 +1,18 @@
+Steps to perform the assignment.
+
+1] Import all required python libraries.
+	import panda as pd //Data manipulation and store
+	import numpy as np //Mathematical-numerical
+
+2] Locate the dataset file from web or from local machine (Chose local machine file.csv)
+
+3] Load the dataset into pandas' dataframe.
+	import the dataset
+	data = pd.read_csv('melb_SampleDataSet.csv') //Loading data into panda's dataset.
+
+4] Data PreProcessing
+	-Check for missing vcalues in the data using panda's insult(), describe() fucntions
+	 to get some initial statistics
+	 Provide Variable Description
+	 Types of variables, etc.
+	 Check the Dimension of the dataframe.
